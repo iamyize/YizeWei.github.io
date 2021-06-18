@@ -14,7 +14,7 @@ layout: feed
 		<email>yize.wei@u.nus.edu</email>
 	</author>
 
-	{% for post in site.post %}
+	{% for post in site.posts %}
 		<entry>
 			<title>{{ post.title }}</title>
 			<link href="http://YizeWei.github.io{{ post.url }}"/>
